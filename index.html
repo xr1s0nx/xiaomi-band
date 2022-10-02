@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+
+      <title>Xiaomi</title>
+   </head>
+   <body onload="startTimer()">
+      <div class="popUp2">
+         <a class="close-popUp"></a>
+         <section class="sale">
+            <div class="container d-flex align-items-center justify-content-center">
+               <div class="sale-content">
+                  <p class="sale-title">Успей приобрести по акционному предложению</p>
+                  <p class="old-price">3200 руб</p>
+                  <p class="new-price"><span>2500</span><br />руб</p>
+                  <a href="#" class="buy-btn">купить сейчас</a>
+               </div>
+            </div>
+         </section>
+      </div>
+      <div class="popUp1">
+         <a class="close-popUp"></a>
+
+         <form class="popUpForm">
+            <p class="form-title">Ваш заказ</p>
+            <div class="form-prop d-flex align-items-center">
+               <p class="item-name">Xiaomi band 7</p>
+               <p class="item-count">x1</p>
+               <p class="item-price"><span>2500</span> руб</p>
+            </div>
+            <p class="form-title">Детали заказа</p>
+            <div class="inp-block">
+               <p class="inp-title">фамилия</p>
+               <input type="text" class="surname" />
+            </div>
+            <div class="inp-flex d-flex justify-content-between">
+               <div class="inp-block">
+                  <p class="inp-title">Имя</p>
+                  <input type="text" class="surname" />
+               </div>
+               <div class="inp-block">
+                  <p class="inp-title">Отчество</p>
+                  <input type="text" class="surname" />
+               </div>
+            </div>
+            <div class="inp-block">
+               <p class="inp-title">Область/регион</p>
+               <input type="text" class="surname" />
+            </div>
+            <div class="inp-block">
+               <p class="inp-title">Город</p>
+               <input type="text" class="surname" />
+            </div>
+            <div class="inp-block">
+               <p class="inp-title">Улица, дом, квартира</p>
+               <input type="text" class="surname" />
+            </div>
+            <div class="inp-block">
+               <p class="inp-title">Почтовый индекс</p>
+               <input type="number" class="surname" />
+            </div>
+            <div class="inp-flex d-flex justify-content-between">
+               <div class="inp-block">
+                  <p class="inp-title">Телефон</p>
+                  <input type="tel" class="surname" />
+               </div>
+               <div class="inp-block">
+                  <p class="inp-title">Email</p>
+                  <input type="email" class="surname" />
+               </div>
+            </div>
+            <button class="send" type="submit">Подтвердить заказ</button>
+         </form>
+      </div>
+      <header class="header">
+         <div class="container">
+            <div class="header__top d-flex align-items-center justify-content-between">
+               <a href="#" class="logo-link">
+                  <img src="img/logo.svg" alt="" class="logo-img" />
+               </a>
+               <nav class="header-nav d-flex align-items-center justify-content-between">
+                  <a href="#" class="nav-item">Xiaomi band 7</a>
+                  <a href="#" class="nav-item">Характеристики</a>
+                  <a href="#" class="nav-item">Купить</a>
+               </nav>
+            </div>
+            <div class="header__content">
+               <div class="stock-block">Акционное предложение</div>
+               <h1 class="content-title">Xiaomi Band 7<br /><span>“Большие”</span><br />изменения</h1>
+               <p class="content-text">Самым ожидаемым продукт Xiaomi в 2022 году</p>
+               <div class="buy-now d-flex align-items-end justify-content-between">
+                  <a class="buy-btn">купить сейчас</a>
+                  <div class="price">
+                     <p class="price-text"><span>2500</span><br />руб</p>
+                     <div class="old-price">
+                        <p class="old-price-text"><span>3200</span><br />руб</p>
+                     </div>
+                     <img src="img/header-img.png" alt="" class="band-img" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="news">
+         <div class="container">
+            <div class="news__content d-flex align-items-center">
+               <div class="news-descr">
+                  <p class="descr-subtitle">Новая версия популярного</p>
+                  <p class="descr-title">Фитнес-браслета</p>
+                  <p class="descr-text">Совершенно новая версия<br />«Умного» трекера от компании<br />Xiaomi которого все ждали</p>
+                  <a class="buy-btn">купить сейчас</a>
+               </div>
+               <div class="swiper-pos">
+                  <div class="news-swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="slide-content">
+                              <img src="img/slide-img1.png" alt="" class="slide-img" />
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="slide-content">
+                              <img src="img/slide-img2.png" alt="" class="slide-img" />
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="slide-content">
+                              <img src="img/slide-img3.png" alt="" class="slide-img" />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a href="#" class="prev-arrow">
+                     <img src="img/prevArrow.svg" alt="" />
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="rec">
+         <div class="container">
+            <div class="rec-content d-flex align-items-start justify-content-between">
+               <img src="img/rec.png" alt="" class="rec-img" />
+               <div class="content-descr">
+                  <p class="descr-title">Измерение уровня кислорода в крови</p>
+                  <p class="descr-text">Xiaomi Band 7 оснащен функцией измерения уровня кислорода в крови благодаря наличию датчика SpO2.</p>
+               </div>
+            </div>
+            <div class="rec-content d-flex align-items-start justify-content-between flex-row-reverse">
+               <img src="img/rec2.png" alt="" class="rec-img" />
+               <div class="content-descr text-right">
+                  <p class="descr-title text-right">100 настраиваемых циферблатов</p>
+                  <p class="descr-text text-right">
+                     В приложение встроено более 100 циферблатов. также впервые поддерживается настройку функции циферблата – циферблат не только
+                     красив, но и прост в использовании.
+                  </p>
+               </div>
+            </div>
+            <div class="rec-content d-flex align-items-start justify-content-between">
+               <img src="img/rec3.png" alt="" class="rec-img" />
+               <div class="content-descr">
+                  <p class="descr-title">Влагозащита 50 метров</p>
+                  <p class="descr-text">
+                     Фитнес-браслет имеет защиту от попадания воды по стандарту 5ATM. С Mi Band 7 можно спокойно нырять под воду глубину до 50 метров.
+                     Принимайте душ или ходите под дождем, не беспокоясь о вашем браслете.
+                  </p>
+               </div>
+            </div>
+            <div class="rec-content d-flex align-items-start justify-content-between flex-row-reverse">
+               <img src="img/rec4.png" alt="" class="rec-img" />
+               <div class="content-descr">
+                  <p class="descr-title text-right">30 спортивных режимов</p>
+                  <p class="descr-text text-right">
+                     Xiaomi Band 7 поддерживают 30 спортивных режимов с функцией обнаружения и определения вида тренировки: бег, ходьба, велосипед,
+                     футбол и теннис и многое другое.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="also">
+         <div class="container">
+            <p class="sec-title">а также</p>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="also-block">
+                     <img src="img/also1.png" alt="" class="block-img" />
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="also-block">
+                     <img src="img/also2.png" alt="" class="block-img" />
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="also-block">
+                     <img src="img/also3.png" alt="" class="block-img" />
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="also-block">
+                     <img src="img/also4.png" alt="" class="block-img" />
+                  </div>
+               </div>
+               <div class="col-12">
+                  <img src="img/also5.png" alt="" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="sale">
+         <div class="container">
+            <div class="sale-content">
+               <img src="img/sale.png" alt="" class="sale-img" />
+               <p class="sale-title">Успей приобрести по акционному предложению</p>
+               <p class="old-price">3200 руб</p>
+               <p class="new-price"><span>2500</span><br />руб</p>
+               <a class="buy-btn">купить сейчас</a>
+            </div>
+         </div>
+      </section>
+      <footer class="footer">
+         <div class="container">
+            <p class="footer-title">
+               Xiaomi Band 7<br />
+               <span>“Большие”</span><br />
+               изменения
+            </p>
+            <a class="buy-btn">купить сейчас</a>
+            <div class="footer-bottom d-flex align-items-end justify-content-between">
+               <a href="#" class="logo-link">
+                  <img src="img/logo.svg" alt="" class="logo-img" />
+               </a>
+               <nav class="header-nav d-flex align-items-center justify-content-between">
+                  <a href="#" class="nav-item">Xiaomi band 7</a>
+                  <a href="#" class="nav-item">Характеристики</a>
+                  <a href="#" class="nav-item">Купить</a>
+               </nav>
+            </div>
+         </div>
+      </footer>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+         crossorigin="anonymous"
+      ></script>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
